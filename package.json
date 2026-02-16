@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "OpenClaw - Automated sales system with WhatsApp AI assistant",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "vercel dev",
-    "start": "node api/health.js"
+    "dev": "node server.js",
+    "start": "node server.js"
   },
   "dependencies": {
     "stripe": "^17.0.0",
