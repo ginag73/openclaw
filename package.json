@@ -1,0 +1,16 @@
+{
+  "name": "openclaw",
+  "version": "1.0.0",
+  "description": "OpenClaw - Automated sales system with WhatsApp AI assistant",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node api/health.js"
+  },
+  "dependencies": {
+    "stripe": "^17.0.0",
+    "twilio": "^5.0.0",
+    "@google-cloud/bigquery": "^7.0.0",
+    "@anthropic-ai/sdk": "^0.30.0"
+  }
+}

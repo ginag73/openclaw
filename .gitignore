@@ -1,0 +1,22 @@
+# ============================================
+# FILES THAT SHOULD NEVER GO TO GITHUB
+# ============================================
+
+# Dependencies (these get re-downloaded with npm install)
+node_modules/
+
+# Secret API keys — NEVER commit these!
+.env
+.env.local
+.env.production
+
+# Vercel system files
+.vercel/
+
+# OS junk files
+Thumbs.db
+.DS_Store
+
+# Editor files
+.vscode/
+.idea/
